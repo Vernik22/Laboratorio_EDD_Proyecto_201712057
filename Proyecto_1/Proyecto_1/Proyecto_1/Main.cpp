@@ -1,7 +1,10 @@
 #include <iostream>
+#include "Menu.h"
 
-using namespace std; 
+using namespace std;
 int main() {
-	cout << "Hola Mundo";
+	Menu* m = new Menu();
+	m->imprimirEncabezado();
+	m->imprimirMenu();
 	return 0;
 }
